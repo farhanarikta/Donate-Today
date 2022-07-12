@@ -1,0 +1,32 @@
+body{
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    margin: 0% ;
+}
+.header{
+    color:whitesmoke;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+    background-image: url(donate-today-main/donate-today-main/images/donation6.jpg);
+    background-position: cover;
+    height: 100vh;
+    
+    
+
+}
+.btn{
+    background-image: linear-gradient(orange,tomato);
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+    
+    
