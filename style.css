@@ -72,6 +72,67 @@ input{
     border: 2px solid tomato;
     color: tomato;
 }
+.seeking-help{
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%
+    
+}
+.help-section{
+    display: flex;
+    justify-items: flex-start;
+    justify-content: space-between;
+    text-align:center;
+    margin: 5%;
+}
+.food-sector{
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    box-shadow: 10px 10px 40px gray;
+    background-color: lightcyan;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 100%;
+    weight: 400%;
+}
+.shelter-sector{
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: 10px 10px 40px gray;
+    background-color: pink;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 100%;
+    weight:400%
+    
+}
+.education-sector{
+    font-size: 15px;
+    font-weight: 400;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    background-color:cornsilk ;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 100%;
+    weight: 400%
+
+}
     
     
 
