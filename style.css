@@ -154,6 +154,45 @@ input{
     justify-items: center;
     background-color: antiquewhite;
 }
+.get-updates-container{
+    text-align: center;
+    padding-top: 10%;
+    
+}
+.e-mail-form{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    padding-top: 2px;
+    padding-bottom:2px ;
+}
+form{
+    background-color:whitesmoke;
+    border-radius: 5px;
+    
+
+
+}
+footer{
+    padding-top: 5%;
+    padding-left: 30%;
+    margin-top: 5%;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-size: 20px;
+    font-style: italic;
+    color: orangered;
+    background-color: black;
+    background-position: cover;
+    border-top:5px solid orange;}
+    #white{
+        color: azure;
+    }
+    
+
+
+
 
 
     
