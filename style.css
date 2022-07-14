@@ -3,6 +3,8 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 30px;
     margin: 0% ;
+    padding: 0;
+    box-sizing: border-box;
 }
 .header{
     color:whitesmoke;
@@ -12,7 +14,9 @@ body{
     padding-right: 2%;
     padding-bottom: 5%;
     background-image: url(donate-today-main/donate-today-main/images/donation6.jpg);
-    background-position: cover;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     
     
@@ -37,17 +41,24 @@ body{
     display: flex;
     justify-content: space-around;
 }
-input{
-    margin: 40px 0 25px 0;
-    font-size: 20px;
-    border: none;
-    outline: none;
+.donate-form .input-part{
+    display: flex;
     justify-content: center;
-    text-align: center;
-    border-bottom: 1px solid gray;
-    transition: .3s linear;
-    width: 80%;
+    align-items: center;
+
+    
 }
+.input-part input{
+    outline: none;
+    border: none;
+    margin: 30px;
+    width: 60%;
+    border-bottom: 2px solid #666;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
 .input-btn{
     background-image: linear-gradient(orange,tomato);
     text-decoration: none;
@@ -156,37 +167,80 @@ input{
 }
 .get-updates-container{
     text-align: center;
-    padding-top: 10%;
+    padding-top:;
     
 }
-.e-mail-form{
+.e-mail{
     display: flex;
     justify-items: center;
     justify-content: center;
-    background-color: blanchedalmond;
-    padding-top: 2px;
-    padding-bottom:2px ;
+    
+    margin-top: 20px;
+    
 }
 form{
     background-color:whitesmoke;
     border-radius: 5px;
     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    padding: 30px 150px;
+    
+
+    
 
 
 }
+.get-updates .btn-new{
+    font-size: 18px;
+    margin-left: -10px;
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px 30px;
+}
+    
+    .get-updates{
+    
+        margin: 20px;
+        
+    }
+    .get-updates-container{
+        
+        margin: 50px;
+        padding: 30px;
+    }
+
+
+.get-updates input{
+ padding: 7px 30px;
+border: 1px solid #666;
+  } 
 footer{
     padding-top: 5%;
     padding-left: 30%;
     margin-top: 5%;
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
-    font-style: italic;
+    font-style: oblique;
     color: orangered;
     background-color: black;
-    background-position: cover;
-    border-top:5px solid orange;}
-    
+    background-position: center;
+    background-size: cover;
+    border-top: 5px solid orange;
+
+}
+footer .text{
+    padding-bottom:10px;
+}
+.input-sector{
+    margin: 40px 0 25px 0;
+
+} 
     
 
 
