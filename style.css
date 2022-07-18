@@ -82,6 +82,7 @@ body{
 #orange{
     border: 2px solid tomato;
     color: tomato;
+    background-color: bisque;
 }
 .seeking-help{
     text-align: center;
